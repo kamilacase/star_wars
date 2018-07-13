@@ -80,3 +80,13 @@ hitbox2.addEventListener("click", function() {
 
 
 });
+var cockpit = ["c1.png", "c2.png", "c3.png", "c4.png", "c0.png"];
+var button = document.getElementById("cockpit");
+var screen = document.getElementById("vaisseau");
+var cpt = 0;
+button.addEventListener ("click", changeCockpit);
+function changeCockpit() {
+    screen.src = "c"+cpt+".png";
+    cpt = (cpt+1)%5;
+
+}

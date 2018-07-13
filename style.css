@@ -45,7 +45,7 @@ body {
     background-color: black;
 }
 
-#xwing {
+#vaisseau {
     position: absolute;
     z-index: 98;
 }
@@ -53,4 +53,20 @@ body {
 #hitbox,
 #hitbox2 {
     z-index: 99;
+}
+
+#cockpit {
+    width: 10rem;
+    height: auto;
+    margin-top: 3em;
+    justify-content: center;
+}
+
+#change {
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
 }
