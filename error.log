@@ -1,0 +1,2 @@
+[Thu Aug 02 18:08:55.931631 2018] [core:error] [pid 3426:tid 140676766775040] (13)Permission denied: [client 127.0.0.1:41570] AH00132: file permissions deny server access: /home/mickael/code/star_wars/c3.png, referer: http://star-wars/
+[Thu Aug 02 18:09:03.360807 2018] [core:error] [pid 3426:tid 140676419286784] (13)Permission denied: [client 127.0.0.1:41570] AH00132: file permissions deny server access: /home/mickael/code/star_wars/c3.png, referer: http://star-wars/
